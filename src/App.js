@@ -178,7 +178,7 @@ function App() {
         <Route path="/desiretoflydetail" element={<DesireToFlyDetail />} />
         <Route path="/notforyoudetail" element={<NotForYouDetail />} />
         <Route path="/viewcart" element={<ViewCart />} />
-        <Route path="*" element={<ErrorPage/>} />
+        <Route path="/*" element={<ErrorPage/>} />
 
       </Routes>
       <Footer />

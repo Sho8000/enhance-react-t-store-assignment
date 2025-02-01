@@ -1,16 +1,16 @@
 import React from "react";
 import "./LandingPage.css"
-import ReactPlayer from "react-player";
+//import ReactPlayer from "react-player";
 
 function ErrorPage() {
   return (
-    <section className="video-container" style={{ height: "100vh" }}>
+    <section className="video-container" style={{ height: "100vh", backgroundColor:"gray" }}>
     <div className="titleContainer">
       <h2 className="title">Not Found this Page,,,</h2>
 
     </div>
 
-    <ReactPlayer
+{/*     <ReactPlayer
       className="reactPlayer"
       url="/homevidnew.mp4"
       playing={true}
@@ -22,7 +22,7 @@ function ErrorPage() {
       loop={true}
       playsinline={true}
     />
-  </section>
+ */}  </section>
 );
 }
 
