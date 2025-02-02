@@ -8,7 +8,7 @@ function Footer(props) {
     <section className="footerSection">
       <div className="footerContainer">
         <div>
-          <a href="mailto:email@example.com?subject=Mail from our Website"><p>Contact xx@mail.com</p></a>
+          <a href="mailto:xx@mail.com"><p>Contact xx@mail.com</p></a>
         </div>
         <div className="socialmediaIcons">
           <a
